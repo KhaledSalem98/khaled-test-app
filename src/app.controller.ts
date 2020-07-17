@@ -15,4 +15,9 @@ export class AppController {
     return { khaled: true };
   }
 
+  @Get('misso')
+  async getMisso() {
+    return { misso: true };
+  }
+
 }
